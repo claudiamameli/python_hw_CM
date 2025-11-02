@@ -13,6 +13,7 @@ This repository will be used to contain my Python exercises, scripts and project
 
 - **`rosalind/`**  
   Solutions to problems from [Rosalind](http://rosalind.info/).
+  Link to my personal account [claudymm](https://rosalind.info/users/claudymm/).
 
 - **`aoc25/`**  
   ///// information to be added 
