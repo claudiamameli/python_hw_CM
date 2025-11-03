@@ -9,11 +9,11 @@ This repository will be used to contain my Python exercises, scripts and project
   **Note:** The contents of this folder are ignored by Git.
 
 - **`misc/`**  
-  Miscellaneous scripts and experiments.
+  Miscellaneous scripts and experiments. <br />
   This will be my personal space for testing ideas or learning new concepts.
 
 - **`rosalind/`**  
-  Solutions to problems from [Rosalind](http://rosalind.info/).
+  Solutions to problems from [Rosalind](http://rosalind.info/). <br />
   Link to my personal account [claudymm](https://rosalind.info/users/claudymm/).
 
 - **`aoc25/`**  
