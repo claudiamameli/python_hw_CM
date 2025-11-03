@@ -6,7 +6,7 @@ This repository will be used to contain my Python exercises, scripts and project
 
 - **`data/`**  
   This folder contains input files, datasets and any other data needed for exercises or projects.  
-  **Note:** The contents of this folder are ignored by Git.
+  **Note:** The contents of this folder are set to be ignored by Git.
 
 - **`misc/`**  
   Miscellaneous scripts and experiments. <br />
