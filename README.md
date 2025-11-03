@@ -9,7 +9,8 @@ This repository will be used to contain my Python exercises, scripts and project
   **Note:** The contents of this folder are ignored by Git.
 
 - **`misc/`**  
-  Miscellaneous scripts and experiments. This will be my personal space for testing ideas or learning new concepts.
+  Miscellaneous scripts and experiments.
+  This will be my personal space for testing ideas or learning new concepts.
 
 - **`rosalind/`**  
   Solutions to problems from [Rosalind](http://rosalind.info/).
