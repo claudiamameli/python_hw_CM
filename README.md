@@ -16,5 +16,5 @@ This repository will be used to contain my Python exercises, scripts and project
   Link to my personal account [claudymm](https://rosalind.info/users/claudymm/).
 
 - **`aoc25/`**  
-  ///// information to be added 
+  Solutions to problems from [Advent of Code 2025](https://adventofcode.com/)
 
