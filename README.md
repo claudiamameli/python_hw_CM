@@ -19,3 +19,6 @@ This repository will be used to contain my Python exercises, scripts and project
 - **`aoc25/`**  
   Solutions to problems from [Advent of Code 2025](https://adventofcode.com/).
 
+
+####
+Extra link for [W3Schools - profile](https://www.w3profile.com/claudiammameli/)
