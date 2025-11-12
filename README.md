@@ -1,6 +1,6 @@
 # Python Homework Repository - Claudia Mameli
 
-This repository will be used to contain my Python exercises, scripts and projects cerated during the "300160-1 Practical introduction to programming for biologists" course at Universität Wien". 
+This repository contains Python exercises, notes, scripts and projects created during the "300160-1 Practical introduction to programming for biologists" course at Universität Wien". 
 
 ## Repository Structure
 
