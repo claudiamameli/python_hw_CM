@@ -3,3 +3,4 @@
 .ipynb_checkpoints/
 misc/extra_files/*
 rosalind/*.txt
+rosalind/extras
