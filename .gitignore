@@ -4,3 +4,4 @@
 misc/extra_files/*
 rosalind/*.txt
 rosalind/extras
+misc/lecture_notebooks/__pycache__/
