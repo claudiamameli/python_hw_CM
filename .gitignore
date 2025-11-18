@@ -6,3 +6,4 @@ rosalind/*.txt
 rosalind/extras
 misc/lecture_notebooks/__pycache__/
 rosalind/__pycache__/
+cheat_sheet.ipynb
