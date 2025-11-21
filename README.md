@@ -22,7 +22,7 @@ This repository contains Python exercises, notes, scripts and projects created d
   Titles of pictures refer to ***foldername_id_number.jpg*** where:<br/>
    - ***foldername*** is the name of the folder where the notebook is contained <br/>
    - ***id*** is a recognisiable feature of the notebook in the specified folder <br/>
-   - ***number*** is the order of appearance within the notebook. 
+   - ***number*** is the order of appearance within the notebook
 
 - **`rosalind/`**  
   Solutions to problems from [Rosalind](http://rosalind.info/). <br />
