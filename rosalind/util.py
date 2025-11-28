@@ -40,6 +40,16 @@ def text_to_fasta(fasta_file):
     return fasta_dic
 
 
+def reverse_complement(rna):
+    # the reverse complement:
+    revc = rna[::-1]
+    revc = revc.replace('A', 'u')
+    revc = revc.replace('U', 'a')
+    revc = revc.replace('G', 'c')
+    revc = revc.replace('C', 'g')
+    revc = revc.upper()
+    return revc
+
 
 def gc_content_count(fasta_dic):
     """
@@ -55,6 +65,11 @@ def gc_content_count(fasta_dic):
     return percentages
 
 
+def read_fasta(fasta_file):
+    lines = read_file_into_lines(fasta_file)
+    fasta = text_to_fasta(lines)
+    return fasta
+    
 # This dictionary might be useful in the future. 
 codon_dict = {
 'UUU': "F",      'CUU': 'L',      'AUU': 'I',      'GUU': 'V',
@@ -67,9 +82,9 @@ codon_dict = {
 'UCG': "S",      'CCG': 'P',      'ACG': 'T',      'GCG': 'A',
 'UAU': "Y",      'CAU': 'H',      'AAU': 'N',      'GAU': 'D',
 'UAC': "Y",      'CAC': 'H',      'AAC': 'N',      'GAC': 'D',
-'UAA': "",   'CAA': 'Q',      'AAA': 'K',      'GAA': 'E',
-'UAG': "",   'CAG': 'Q',      'AAG': 'K',      'GAG': 'E',
+'UAA': "None",   'CAA': 'Q',      'AAA': 'K',      'GAA': 'E',
+'UAG': "None",   'CAG': 'Q',      'AAG': 'K',      'GAG': 'E',
 'UGU': "C",      'CGU': 'R',      'AGU': 'S',      'GGU': 'G',
 'UGC': "C",      'CGC': 'R',      'AGC': 'S',      'GGC': 'G',
-'UGA': "",   'CGA': 'R',      'AGA': 'R',      'GGA': 'G',
+'UGA': "None",   'CGA': 'R',      'AGA': 'R',      'GGA': 'G',
 'UGG': "W",      'CGG': 'R',      'AGG': 'R',      'GGG': 'G'}
