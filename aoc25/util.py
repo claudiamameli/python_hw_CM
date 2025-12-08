@@ -21,3 +21,16 @@ def read_file_into_lines(file_path):
             cleaned = line.rstrip()
             lines.append(cleaned)
     return lines
+
+
+# from Niko's Util
+def file_to_list(path, raw=False):
+    lines = []
+    with open(path, 'r') as infile:
+        for line in infile.readlines():
+            if raw:
+                lines.append(line[:-1])
+            else:
+                lines.append(line.strip())
+
+    return lines
