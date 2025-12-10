@@ -1,4 +1,4 @@
-def read_file_into_lines(file_path):
+def read_file_into_lines(file_path, strip=True):
     """
     A simple function to read a file into
     a list of lines, removing the newline
@@ -18,7 +18,10 @@ def read_file_into_lines(file_path):
     lines = []
     with open(file_path, 'r') as infile:
         for line in infile.readlines():
-            cleaned = line.rstrip()
+            if strip:
+                cleaned = line.rstrip()
+            else:
+                cleaned = line[]
             lines.append(cleaned)
     return lines
 
