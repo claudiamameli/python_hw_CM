@@ -18,10 +18,7 @@ def read_file_into_lines(file_path, strip=True):
     lines = []
     with open(file_path, 'r') as infile:
         for line in infile.readlines():
-            if strip:
-                cleaned = line.rstrip()
-            else:
-                cleaned = line[]
+            cleaned = line.rstrip()
             lines.append(cleaned)
     return lines
 
